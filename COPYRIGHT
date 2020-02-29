@@ -1,0 +1,18 @@
+Linuxium's script to respin an Ubuntu (or Ubuntu flavour), Linux Mint, neon, elementary, BackBox or Peppermint desktop ISO and optionally add/remove functionality like
+kernels/repositories/packages/files/boot parameters etc., run pre- and post commands, output files and directories, include boot loader/manager support for Intel Atom/Apollo
+devices and add support for 32-bit boot loaders together with template configuration files.
+Copyright (C) 2020 Ian W. Morrison (linuxium@linuxium.com.au).
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+

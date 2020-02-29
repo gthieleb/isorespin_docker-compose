@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  isorespin:
+    build:
+      context: .
+    entrypoint: /usr/bin/isorespin.sh
+    command: --atom --dist-upgrade -i /data/isos/xubuntu-19.10-desktop-amd64.iso -w /data/isos
+    devices:
+      - /dev/loop0:/dev/loop0
+    volumes:
+      - ./isorespin.sh:/usr/bin/isorespin.sh:z
+      - /data/isos:/data/isos:z
+    cap_add:
+        - SYS_ADMIN
+
